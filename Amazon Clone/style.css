@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial;
+}
+
+.header-section{
+    background-color: #131921; /* header bgcolor */
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 76px;
+    color: white;
+}
+.header-section img{
+    width: 120px;
+    height: auto;
+}
+.header-section svg{
+    margin-right: 6px;
+    background-color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: auto;
+}
+.delivery-location{
+    width: 210px;
+}
+.drop-menu select{
+    height: 50px;
+    text-align: center;
+}
