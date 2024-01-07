@@ -84,7 +84,7 @@
             <div class="shop-box">
                 <h2>Clothings</h2>
                 <img src="imgs/box1_image.jpg" alt="Clothings">
-                <p><a href="#">Shop Now</a></p>
+                <p><a href="https://www.amazon.com/s?k=clothings&i=computers-intl-ship&crid=2KMX6VWAKNXX3&sprefix=clothin%2Ccomputers-intl-ship%2C274&ref=nb_sb_noss_2" target="_blank">Shop Now</a></p>
             </div>
         </div>
         <div class="shop-container">
@@ -140,7 +140,7 @@
             <div class="shop-box">
                 <h2>Clothings</h2>
                 <img src="imgs/box1_image.jpg" alt="Clothings">
-                <p><a href="#">Shop Now</a></p>
+                <p><a href="https://www.amazon.com/s?k=clothings&i=computers-intl-ship&crid=2KMX6VWAKNXX3&sprefix=clothin%2Ccomputers-intl-ship%2C274&ref=nb_sb_noss_2" target="_blank">Shop Now</a></p>
             </div>
         </div>
         <div class="shop-container">
@@ -196,11 +196,92 @@
 
     <div class="signin-panel">
         <div class="signin-box">
-            <p>See personalized recommendations</p>
-            <button>Sign in</button>
-            <p>New Customer? <a href="Start here."></a></p>
+            <div class="signin-options">
+                <p>See personalized recommendations</p>
+                <button>Sign in</button>
+                <p class="new-customer">New Customer? <a href="#">Start here.</a></p>
+            </div>    
         </div>
     </div>
+
+    <div class="back-to-top">
+        <a href="#" id="top">Back to top</a>
+    </div>
+
+    <footer>
+
+        <div class="footer1">
+            <div class="footer-content">
+                <!-- column 1 -->
+                <div class="footer-column">
+                    <h4>Get to Know Us</h4>
+                    <a href="#">Careers</a>
+                    <a href="#">Blog</a>
+                    <a href="#">About Amazon</a>
+                    <a href="#">Investor Relations</a>
+                    <a href="#">Amazon Devices</a>
+                    <a href="#">Amazon Science</a>
+                </div>
+                <!-- column 2 -->
+                <div class="footer-column">
+                    <h4>Make Money with Us</h4>
+                    <a href="#">Sell products on Amazon</a>
+                    <a href="#">Sell on Amazon Business</a>
+                    <a href="#">Sell apps on Amazon</a>
+                    <a href="#">Become an Affiliate</a>
+                    <a href="#">Advertise Your Products</a>
+                    <a href="#">Self-Publish with Us</a>
+                    <a href="#">Host an Amazon Hub</a>
+                </div>
+                <!-- column 3 -->
+                <div class="footer-column">
+                    <h4>Amazon Payment Products</h4>
+                    <a href="#">Amazon Business Card</a>
+                    <a href="#">Shop with Points</a>
+                    <a href="#">Reload Your Balance</a>
+                    <a href="#">Amazon Currency Converter</a>
+                </div>
+                <!-- columns 4 -->
+                <div class="footer-column">
+                    <h4>Let Us Help You</h4>
+                    <a href="#">Amazon and COVID-19</a>
+                    <a href="#">Your Account</a>
+                    <a href="#">Your Orders</a>
+                    <a href="#">Shipping Rates & Policies</a>
+                    <a href="#">Returns & Replacements</a>
+                    <a href="#">Manage Your Content and Devices</a>
+                    <a href="#">Amazon Assistant</a>
+                    <a href="#">Help</a>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="footer2">
+
+        </div>
+
+    </footer>
+
+    <script>
+        // JavaScript to handle scrolling to the top
+        var backToTopButton = document.getElementById("top");
+    
+        // Show or hide the back to top button based on scroll position
+        window.onscroll = function() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            backToTopButton.style.display = "block";
+          } else {
+            backToTopButton.style.display = "none";
+          }
+        };
+    
+        // Scroll to the top when the back to top button is clicked
+        backToTopButton.onclick = function() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+        };
+      </script>
 
 </body>
 </html>
