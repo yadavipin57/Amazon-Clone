@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -27,6 +28,7 @@ p a:hover{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    /* flex-wrap: wrap; */
     color: white;
 }
 
@@ -227,10 +229,9 @@ p a:hover{
 /* main image  */
 .main-img{
     background-image: url("imgs/hero_image.jpg");
-    background-size: cover;
+    background-size: cover; 
     width: auto;
     height: 400px;
-    z-index: -1;
 }
 
 .main-img p{
@@ -253,7 +254,7 @@ p a:hover{
 }
 .shop-container{
     margin: 0 0 32px 0;
-    width: 22%;
+    width: 360px;
     background-color: white;
     box-shadow: 1px 1px 10px 1px rgba(129, 129, 129, 0.5);
 }
@@ -266,11 +267,93 @@ p a:hover{
 }
 .shop-box img{
     padding: 6px 0 0 0;
-    background-size: cover;
+    /* background-size: cover; */
+    object-fit: cover;
     width: 100%;
     height: 300px;
 }
 .shop-box p{
     padding: 12px 0 24px 0;
-
 }
+
+/* sign in panel  */
+.signin-panel{
+    margin: 0 0 32px 0;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 180px;
+}
+.signin-box{
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 120px;
+    border: 1px solid rgb(210, 210, 210);
+}
+.signin-options{
+    text-align: center;
+}
+.signin-options p{
+    margin: 3px;
+    font-size: 0.8rem;
+}
+.signin-options button{
+    margin: 3px;
+    background: linear-gradient(to bottom, #fcc379, #fca028);
+    width: 220px;
+    height: 1.8rem;
+    font-weight: 600;
+    font-size: .9rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* back to top  */
+#top{
+    padding: 1rem;
+    background-color: #37475A;
+    text-align: center;
+    font-size: 0.9rem;
+    color: white;
+    font-weight: 600;
+}
+#top:hover{
+    background-color: #485769;
+}
+
+
+/* footer  */
+
+/* footer1 */
+.footer1{
+    background-color: #232F3E;
+    height: 700px;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+}
+.footer-column{
+    margin: 64px 12px;
+    width: 220px;
+}
+.footer1 a{
+    margin: 10px 0;
+    display: block;
+    color: rgb(211, 211, 211);
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+.footer1 a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
